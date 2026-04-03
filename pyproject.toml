@@ -37,7 +37,7 @@ dependencies = [
     "ipywidgets",
     "matplotlib>=3.7.2",
     "nodejs==0.1.1",
-    "numpy>=1.26.4",
+    "numpy==1.26.4",
     "pandas>=2.1.4",  # For Colab
     "pre-commit==3.3.3",
     "scikit-learn==1.5.0",
