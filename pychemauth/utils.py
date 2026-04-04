@@ -1329,7 +1329,7 @@ class NNTools:
             "shuffle": True,  # Automatically ignored if data is an iterator
             "callbacks": [
                 keras.callbacks.ModelCheckpoint(
-                    filepath="./checkpoints/model.{epoch:05d}",
+                    filepath="./checkpoints/model.{epoch:05d}.weights.h5",
                     save_weights_only=True,
                     monitor="val_sparse_categorical_accuracy",
                     save_freq="epoch",
